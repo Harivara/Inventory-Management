@@ -1,6 +1,7 @@
-import express from "express";
-import  Router from "express";
-import productRoutes from "./Router/ProductRouter.js"
+const express =require("express");
+const Router =require("express");
+
+const  productRoutes = require("./Router/ProductRouter")
 
 const app=express();
 app.use(express.json());

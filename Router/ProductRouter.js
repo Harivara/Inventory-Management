@@ -1,6 +1,6 @@
-import express from "express";
+const express =require("express");
 
-import { createProduct, decreaseStock, deleteProduct, getAllProducts, getLowStockProducts, increaseStock, updateProduct } from "../Contoller/ProductController.js";
+const { createProduct, decreaseStock, deleteProduct, getAllProducts, getLowStockProducts, increaseStock, updateProduct } = require("../Controller/ProductController")
 
 const router=express.Router()
 
@@ -13,4 +13,4 @@ router.post("/decrease-stock/:id",decreaseStock)
 router.get("/low-stock",getLowStockProducts)
 
 
-export default router
+module.exports = router;
