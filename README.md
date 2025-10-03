@@ -3,7 +3,7 @@
 The project is built with Node.js and Express.js for the backend. Data is currently stored in-memory, using an array, instead of a real database. For testing, I used Jest to validate all the controller functions and ensure the API works as expected.
 The goal of this project is to provide a simple way to manage products, update stock, and keep track of low-stock items.
 
-Video Link  - loom.com/share/ff2afd061c8d49d49e7e2a2a766d5b96
+# Video Link  - loom.com/share/ff2afd061c8d49d49e7e2a2a766d5b96
  
 
 # Inventory-Management SetUp
